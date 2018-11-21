@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h5 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    background-image: url('images/cross9.jpeg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+img {
+    height: auto;
+    width: 100%;
+}
+</style>
+<body>
+
+<div class="bgimg w3-display-container w3-text-white">
+  <div class="w3-display-bottomright w3-xxxlarge">
+    <p align=right>Twinland<br>MBC</p>
+  </div>
+  <div class="w3-display-topleft w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('about_us').style.display='block'" class="w3-button w3-black">about us</button></p>
+    <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-black">contact</button></p>
+    <p><button onclick="document.getElementById('events').style.display='block'" class="w3-button w3-black">events</button></p>
+    <p><button onclick="document.getElementById('gallery').style.display='block'" class="w3-button w3-black">gallery</button></p>
+    <p><button onclick="document.getElementById('map').style.display='block'" class="w3-button w3-black">map</button></p>
+    <p><button onclick="document.getElementById('missions').style.display='block'" class="w3-button w3-black">missions</button></p>
+  </div>
+  <div class="w3-display-bottomleft w3-container w3-text-white">
+    <p class="w3-large">sunday school | 10:00am <br> morning worship | 11:00am</p>
+    <p class="w3-medium">16300 Wallisville Rd, Houston, TX 77049</p>
+  </div>
+</div>
+
+<!-- About Us Modal -->
+<div id="about_us" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('about_us').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Service Times</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Sunday School <b>10:00am</b></h5>
+      <h5>Sunday Worship <b>11:00am</b></h5>
+      <h5>Wednesday Bible Study <b>7:00pm</b></h5>
+    </div>
+    <div class="w3-container w3-black">
+      <h1>Doctrinal Statement</h1>
+    </div>
+    <div class="w3-container">
+      <h5>We believe that love one for another as Jesus loves the believer manifests our discipleship, proves our love for God and symbolizes our authority as New Testament churches. Love is therefore the great commandment of the LORD Jesus Christ upon which all others are dependent (Matt. 22:35-40; John 13:34, 35; John 15:12; 1 John 4:7-21; 1 John 5:1-3; Rev. 2:4, 5).</h5>
+      <h5>We believe in the infallible, verbal inspiration of the whole Bible and that the Bible is the all-sufficient rule of faith and practice (Psalm 119:160; 2 Tim. 3:16, 17).</h5>
+      <h5>We believe in the personal triune God: Father, Son, and Holy Spirit, equal in divine perfection (Matt. 28:19).</h5>
+      <h5>We believe in the Genesis account of Creation (Gen. 1; 2).</h5>
+      <h5>We believe that Satan is a fallen angel, the archenemy of God and man, the unholy god of this world, and that his destiny is the eternal lake of fire (Isa. 14:12-15; Ezek. 28:11-19; Matt. 25:41; 2 Cor. 4:4; Eph. 6:10-17; Rev. 20:10).</h5>
+      <h5>We believe in the virgin birth and sinless humanity of Jesus Christ (Matt. 1:18-20; 2 Cor. 5:21; 1 Peter 2:22).</h5>
+      <h5>We believe in the deity of Jesus Christ (John 10:30; John 1:1, 14; 2 Cor. 5:19).</h5>
+      <h5>We believe the Holy Spirit is the divine Administrator for Jesus Christ in His churches (Luke 24:49; John 14:16, 17; Acts 1:4, 5, 8; Acts 2:1-4).</h5>
+      <h5>We believe that miraculous spiritual manifestation gifts were done away when the Bible was completed. Faith, Hope and Love are the vital abiding Spiritual Gifts (1 Cor. chapters 12-14).</h5>
+      <h5>We believe that Man was created in the image of God and lived in innocency until he fell by voluntary transgression from his sinless state, the result being that all mankind are sinners (Gen. 1:26; Gen. 3:6-24; Rom. 5:12, 19).</h5>
+      <h5>We believe that the suffering and death of Jesus Christ was substitutionary for all mankind and is efficacious only to those who believe (Isa. 53:6; Heb. 2:9; 1 Peter 2:24; 1 Peter 3:18; 2 Peter 3:9; 1 John 2:2).</h5>
+      <h5>We believe in the bodily resurrection and ascension of Christ and the bodily resurrection of His saints (Matt. 28:1-7; Acts 1:9-11; 1 Cor. 15:42-58; 1 Thess. 4:13-18).</h5>
+      <h5>We believe in the premillennial, personal, bodily return of Christ as the crowning event of the Gentile age. This event will include the resurrection of the righteous to eternal heaven, and the Millennium will be followed by the resurrection of the unrighteous unto eternal punishment in the lake of fire and that the righteous shall enter into the heaven age (John 14:1-6; 1 Thess. 4:13-18; 2 Thess. 2:8; Rev. 19; Rev. 20:4-6; Rev. 20:11-15; Rev. 21:8).</h5>
+      <h5>We believe that the depraved sinner is saved wholly by grace through faith in Jesus Christ, and the requisites to regeneration are repentance toward God and faith in the Lord Jesus Christ (Luke 13:3-5; John 3:16-18; Acts 20:21; Rom. 6:23; Eph. 2:8, 9), and that the Holy Spirit convicts sinners, regenerates, seals, secures, and indwells every believer (John 3:6; John 16:8, 9; Rom. 8:9-11; 1 Cor. 6:19, 20; Eph. 4:30; Titus 3:5).</h5>
+      <h5>We believe that all who trust Jesus Christ for salvation are eternally secure in Him and shall not perish (John 3:36; John 5:24; John 10:27-30; Rom. 8:35-39; Heb. 10:39; 1 Peter 1:5).</h5>
+      <h5>We believe that God deals with believers as His children, that He chastises the disobedient, and that He rewards the obedient (Matt. 16:27; Matt. 25:14-23; John 1:12; Heb. 12:5-11; 2 John 8; Rev. 22:12).</h5>
+      <h5>We believe that Jesus Christ established His church during His ministry on earth and that it is always a local, visible assembly of scripturally baptized believers in covenant relationship to carry out the Commission of the Lord Jesus Christ, and each church is an independent, self-governing body, and no other ecclesiastical body may exercise authority over it. We believe that Jesus Christ gave the Great Commission to the New Testament churches only, and that He promised the perpetuity of His churches (Matt. 4:18-22; Matt. 16:18; Matt. 28:19, 20; Mark 1:14-20; John 1:35-51; Eph. 3:21).</h5>
+      <h5>We believe that there are two pictorial ordinances in the Lord's churches: Baptism and the Lord's Supper. Scriptural baptism is the immersion of penitent believers in water, administered by the authority of a New Testament church in the name of the Father, Son, and Holy Spirit. The Lord's Supper is a memorial ordinance, restricted to the members of the church observing the ordinance (Matt. 28:19, 20; Acts 8:12, 38; Rom. 6:4; 1 Cor. 5:11-13; 1 Cor. 11:1, 2, 17-20, 26).</h5>
+      <h5>We believe that there are two divinely appointed offices in a church, pastors and deacons, to be filled by men whose qualifications are set forth in Titus and 1 Timothy.</h5>
+      <h5>We believe that all associations, fellowships, and committees are, and properly should be, servants of, and under control of the churches (Matt. 20:25-28).</h5>
+      <h5>We believe in freedom of worship without interference from the government and affirm our belief in civil obedience, unless the laws and regulations of civil government run contrary to the Holy Scriptures (Rom. 13:1-7; 1 Peter 2:13-15).</h5>
+      <h5>We believe the Bible definition of marriage is the union between a man and a woman (Gen. 2:21-24; Matt. 19:4-6; Mark 10:6-9; 1 Cor. 7:2-4; Eph. 5:22-31).</h5>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Modal -->
+<div id="contact" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black">
+      <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Contact</h1>
+    </div>
+    <div class="w3-container">
+      <p>Give us a prayer request, ask a question, or just send us a message:</p>
+      <form action="/action_page.php" target="_blank">
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Prayer Requests" required name="Message"></p>
+        <p><button class="w3-button" type="submit">SEND MESSAGE</button></p>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Modal -->
+<div id="events" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+   <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('events').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Christmas Luncheon (12/16/18)</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Just after morning service on December 16th, join us for our annual Christmas luncheon. Food will be provided for all attendees. Bring your appetite.</h5>
+    </div>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Modal -->
+<div id="gallery" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+   <div class="w3-container w3-black w3-display-container">
+    <span onclick="document.getElementById('gallery').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+    <h1>Church Pictures</h1>
+    </div>
+    <div class="w3-container">
+      <img src = images/gianna&carson.jpg>
+    </div>
+    <div class="w3-container w3-black">
+    <h1>VBS</h1>
+    </div>
+    <div class="w3-container">
+      <img src = images/VBS.jpg>
+    </div>
+    <div class="w3-container w3-black">
+    <h1>Church Camp</h1>
+    </div>
+    <div class="w3-container">
+      <img src = images/churchcamp.jpg>
+    </div>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Modal -->
+<div id="map" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+   <div class="w3-container w3-black w3-display-container">
+    <span onclick="document.getElementById('map').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3461.6616377779196!2d-95.14429608573074!3d29.81631823626974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640a69d4b09f94b%3A0x4523f2d4b11a9361!2s16300+Wallisville+Rd%2C+Houston%2C+TX+77049!5e0!3m2!1sen!2sus!4v1542765615844" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+   </div>
+  </div>
+</div>
+
+<!-- Contact Modal -->
+<div id="missions" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+   <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('missions').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Danny Kennedy</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Brother Kennedy is the missionary pastor in Clovis, NM. He has pastored the Lord's local New Testament churches in Arkansas, Texas, and Kentucky. Pastor Kennedy was raised in the South Houston/Pasadena, Texas area. Pastor Kennedy was saved at the age of 9 years old and was baptized by the authority of Fellowship MBC where he served as a member in various positions such as Young Adult Sunday School teacher and Youth Director from 1985 - 2003 until he took his first pastorate in Arkansas. Brother Kennedy has attended both Heritage Baptist Institute and Central Arkansas Baptist Bible Institute. He was licensed and ordained by Fellowship MBC in 2003. He is married to his beloved wife, Mandy, of 19 years and they have 3 wonderful children; Danny, Bailey, and Grace.</h5>
+    </div>
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('missions').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Scott Maness</h1>
+    </div>
+    <div class="w3-container">
+      <h5>The Maness family are missionaries to Argentina, sent out by Nevill's Chapel Baptist Church in Mt. Pleasant, Texas.</h5>
+    </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
