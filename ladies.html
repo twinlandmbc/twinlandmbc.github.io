@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<title>Twinland Ladies</title>
+<head>
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162545650-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-162545650-1');
+    </script> 
+</head>
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+<link href="//db.onlinewebfonts.com/c/703411cdfe4e96632a84cb5ec0550818?family=WoodCut" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+     
+<style>
+     body {font-family: "Raleway"}
+     h1 {font-family: "Woodcut"}
+     h5 {Font-family: "Helvetica"}
+body, html {height: 100%}
+p {
+  margin-left:15px;
+  margin-right:15px;
+}
+.bgimg {
+    background-image: url('images/ladies.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+img {
+    height: auto;
+    width: 100%;
+}
+<!
+@media screen and (max-width: 1024px) {
+    .video2 {
+        display: none !important;
+    }
+}
+    !>
+
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-topmiddle font-family:Raleway">
+  <div class="w3-bar w3-text-black" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="index.html" class="w3-bar-item w3-button">HOME</a>
+    <a href="kids.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-child"></i> KIDS</a>
+    <a href="men.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-male"></i> MEN</a>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="men.html" class="w3-bar-item w3-button" onclick="toggleFunction()">MEN</a>
+    <a href="kids.html" class="w3-bar-item w3-button" onclick="toggleFunction()">KIDS</a>
+  </div>
+</div>
+     
+ 
+<div class="bgimg w3-display-container w3-text-brown">
+  <div class="w3-display-topmiddle w3-xxxlarge">
+       <p align=center><center><h1><font size=+6>Twinland <br>Ladies' Auxiliary <br></font><h1></p></center>
+  </div>
+  <div class="w3-display-bottomleft w3-container w3-xlarge">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p><button onclick="document.getElementById('mission').style.display='block'" class="w3-button w3-black">Mission</button></p>
+    <p><button onclick="document.getElementById('verse').style.display='block'" class="w3-button w3-black">Team Verse</button></p>
+  </div>
+  <div class="w3-display-bottomright w3-container w3-xlarge">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p align=right><button onclick="document.getElementById('map').style.display='block'" class="w3-button w3-black">Map</button></p>
+    <p align=right><button onclick="document.getElementById('activities').style.display='block'" class="w3-button w3-black">Activities</button></p>
+  </div>
+  
+</div>
+
+<!-- Mission Modal -->
+<div id="mission" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('mission').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Our Mission</h1>
+    </div>
+    <div class="w3-container">
+      <h5>The mission of the Twinland Missionary Baptist Church Men’s Ministry Team is to encourage, equip, and energize the men of Twinland Missionary Baptist Church and our community to become all God has purposely designed each man to be through a personal relationship with Jesus Christ, discipleship, leadership, and obedience to the inerrant Word of God. </h5>
+    </div>
+  </div>
+</div>
+
+<!-- Verse Modal -->
+<div id="verse" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('verse').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Team Verse</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Have not I commanded thee? Be strong and of a good courage; be not afraid, neither be thou dismayed: for the Lord thy God is with thee whithersoever thou goest. <br> - Joshua 1:9</h5>    </div>
+  </div>
+</div>
+
+<!-- Map Modal -->
+<div id="map" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+   <div class="w3-container w3-black w3-display-container">
+    <span onclick="document.getElementById('map').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13846.638966499097!2d-95.141889!3d29.816373!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacbe4fac008f8eaa!2sTwinland+Missionary+Baptist+Church!5e0!3m2!1sen!2sus!4v1542823047229" width="400" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+   </div>
+  </div>
+</div>
+     
+<!-- Activities Modal -->
+<div id="activities" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('activities').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Activities</h1>
+    </div>
+    <div class="w3-container">
+      <h5><p>Our Men’s Ministry seeks to encourage men’s evangelism, discipleship, fellowship, and ministry projects through planning, coordinating, and promoting each of these activities in accordance with our mission statement.</p>
+           <p><b>Evangelism</b> – through both outreach and in-reach proclaiming the good news of Jesus Christ to men<br>
+           <b>Discipleship</b> – through Bible studies and small groups interactions<br>
+           <b>Fellowship</b> – through planned events which bring men together<br>
+           <b>Ministry Projects</b> – through organized outreach and in-reach projects designed to promote biblical truths</h5></p></div>
+  </div>
+</div>
+
+<script>
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card-2" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+</body>
+</html>
